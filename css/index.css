@@ -1,0 +1,212 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    height: 1000vh;
+}
+/*------------------------sec1----------------------------*/
+.sec1
+{
+ height: 100vh;
+ background-color:#37517E ;
+}
+/*----------------------- nav-----------------------------*/
+.sec1 .navbar{
+   background-color:#37517E ;
+   padding-top: 18px;
+}
+.sec1 .navbar-brand{
+    font-family: var(--heading-font);
+    font-weight: 500;
+}
+.sec1 .nav-item{
+    color: white;
+}
+.sec1 .navbar-nav
+{
+    width: 73%;
+}
+.active{
+    color:#46ABCD !important;
+}
+.nav-link:hover
+{
+    color:#46ABCD !important;
+    
+}
+.Watch{
+    padding-top: 10px;
+}
+.about h2{
+    color: #37517E;
+    position: relative;
+    margin-bottom: 20px;
+}
+.about h2::after
+{
+    content: "";
+    position: absolute;
+    bottom:-20px;
+    left: 50%;
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    transform: translate(-50%);
+}
+.about h2::before
+{
+    content: "";
+    position: absolute;
+    bottom:-21.5px;
+    left: 50%;
+    width: 75px;
+    height: 3px;
+    background-color: black;
+    transform: translate(-50%);
+    background-color: #46ABCD;
+    transform: translate(-50%);
+    z-index: 9;
+}
+.as{
+    transition: all 5s ease;  animation: up-down 3s ease-in-out infinite alternate-reverse both;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-play-state: running;
+   
+}
+.about-us .btn-outline-info:hover
+{
+    color: white !important;
+}
+
+   
+
+.Services h2{
+    color: #37517E;
+    position: relative;
+    margin-bottom: 20px;
+}
+.Services h2::after
+{
+    content: "";
+    position: absolute;
+    bottom:-20px;
+    left: 50%;
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    transform: translate(-50%);
+}
+.Services h2::before
+{
+    content: "";
+    position: absolute;
+    bottom:-21.5px;
+    left: 50%;
+    width: 75px;
+    height: 3px;
+    background-color: black;
+    transform: translate(-50%);
+    background-color: #46ABCD;
+    transform: translate(-50%);
+    z-index: 9;
+}
+
+
+.team h2{
+    color: #37517E;
+    position: relative;
+    margin-bottom: 20px;
+}
+.team h2::after
+{
+    content: "";
+    position: absolute;
+    bottom:-20px;
+    left: 50%;
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    transform: translate(-50%);
+}
+.team h2::before
+{
+    content: "";
+    position: absolute;
+    bottom:-21.5px;
+    left: 50%;
+    width: 75px;
+    height: 3px;
+    background-color: black;
+    transform: translate(-50%);
+    background-color: #46ABCD;
+    transform: translate(-50%);
+    z-index: 9;
+}
+
+
+.content h2{
+    color: #37517E;
+    position: relative;
+    margin-bottom: 20px;
+}
+.content h2::after
+{
+    content: "";
+    position: absolute;
+    bottom:-20px;
+    left: 50%;
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    transform: translate(-50%);
+}
+.content h2::before
+{
+    content: "";
+    position: absolute;
+    bottom:-21.5px;
+    left: 50%;
+    width: 75px;
+    height: 3px;
+    background-color: black;
+    transform: translate(-50%);
+    background-color: #46ABCD;
+    transform: translate(-50%);
+    z-index: 9;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width :770px) {
+
+.sec1
+{
+ height: 160vh;
+ background-color:#37517E ;
+}
+.speceal{
+    order: -1;
+}
+.s-f{
+    display: none;
+}
+}
+@media (max-width :425px){
+    .s-s{
+        display: none;
+    }
+}
