@@ -3,9 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 } 
 body{
     height: 1000vh;
+    overflow-x: hidden;
 }
 /*------------------------sec1----------------------------*/
 .sec1
@@ -183,8 +185,133 @@ body{
     z-index: 9;
 }
 
+.Portfolio h2{
+    color: #37517E;
+    position: relative;
+    margin-bottom: 20px;
+}
+.Portfolio h2::after
+{
+    content: "";
+    position: absolute;
+    bottom:-20px;
+    left: 50%;
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    transform: translate(-50%);
+}
+.Portfolio h2::before
+{
+    content: "";
+    position: absolute;
+    bottom:-21.5px;
+    left: 50%;
+    width: 75px;
+    height: 3px;
+    background-color: black;
+    transform: translate(-50%);
+    background-color: #46ABCD;
+    transform: translate(-50%);
+    z-index: 9;
+}
 
+.Pricing h2{
+    color: #37517E;
+    position: relative;
+    margin-bottom: 20px;
+}
+.Pricing h2::after
+{
+    content: "";
+    position: absolute;
+    bottom:-20px;
+    left: 50%;
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    transform: translate(-50%);
+}
+.Pricing h2::before
+{
+    content: "";
+    position: absolute;
+    bottom:-21.5px;
+    left: 50%;
+    width: 75px;
+    height: 3px;
+    background-color: black;
+    transform: translate(-50%);
+    background-color: #46ABCD;
+    transform: translate(-50%);
+    z-index: 9;
+}
 
+.Testimonials h2{
+    color: #37517E;
+    position: relative;
+    margin-bottom: 20px;
+}
+.Testimonials h2::after
+{
+    content: "";
+    position: absolute;
+    bottom:-20px;
+    left: 50%;
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    transform: translate(-50%);
+}
+.Testimonials h2::before
+{
+    content: "";
+    position: absolute;
+    bottom:-21.5px;
+    left: 50%;
+    width: 75px;
+    height: 3px;
+    background-color: black;
+    transform: translate(-50%);
+    background-color: #46ABCD;
+    transform: translate(-50%);
+    z-index: 9;
+}
+
+.Frequently h2{
+    color: #37517E;
+    position: relative;
+    margin-bottom: 20px;
+}
+.Frequentlyh2::after
+{
+    content: "";
+    position: absolute;
+    bottom:-20px;
+    left: 50%;
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    transform: translate(-50%);
+}
+.Frequentlys  h2::before
+{
+    content: "";
+    position: absolute;
+    bottom:-21.5px;
+    left: 50%;
+    width: 75px;
+    height: 3px;
+    background-color: black;
+    transform: translate(-50%);
+    background-color: #46ABCD;
+    transform: translate(-50%);
+    z-index: 9;
+}
+.Pricing .btn-outline-info:hover
+{
+    color: white !important;
+}
 
 
 
